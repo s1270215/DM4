@@ -25,8 +25,8 @@ tails++;
 
 printf("Heads: %d, Tails: %d\n", heads,tails);
   
-  if(heads==2)printf("You won");
-  else printf("You lost");
+  if(heads==2)printf("%s won,str");
+  else printf("%s lost,str");
 
 return 0;
 [EOF]
