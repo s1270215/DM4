@@ -4,6 +4,12 @@
 int main(){
 int l,num,heads=0,tails=0;
 
+  char str[8];
+  printf("あんた誰？");
+  scanf("%s",str);
+  printf("ハロー、%s\n,str");
+  
+  
 print("Tossing a coin...\n");
 
 for(l==0; l<3;l++){
